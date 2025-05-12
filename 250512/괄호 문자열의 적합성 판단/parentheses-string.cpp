@@ -17,8 +17,8 @@ int main() {
         }
         else {
             if(st.empty() == true) {
-                cout << "Yes" << endl;
-                break;
+                cout << "No" << endl;
+                return 0;
             }
             else
                 st.pop();
